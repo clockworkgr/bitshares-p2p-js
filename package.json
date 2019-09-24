@@ -1,0 +1,30 @@
+{
+  "name": "bitshares-p2p-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "nodemon --exec babel-node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "big-integer": "^1.6.45",
+    "bigint-buffer": "^1.1.2",
+    "bitsharesjs": "^3.1.1",
+    "bling-hashes": "^2.0.0",
+    "buffer-xor": "^2.0.2",
+    "buffershift": "0.0.2",
+    "ecurve": "^1.0.6",
+    "uuid": "^3.3.3",
+    "varint": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/node": "^7.6.1",
+    "@babel/preset-env": "^7.6.0",
+    "nodemon": "^1.19.2"
+  }
+}
